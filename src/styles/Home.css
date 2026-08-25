@@ -59,11 +59,25 @@
 .project-btn {
     background-color: var(--color-accent);
     color: var(--color-text-secondary);
+    transition: background-color 0.24s ease;
+}
+
+.project-btn:hover {
+    background-color: var(--color-accent-muted);
+}
+
+.project-btn:active, .cv-btn:active, .project-link:active, .contact-link:active {
+    transform: scale(0.92);
 }
 
 .cv-btn {
     background-color: var(--color-surface);
     color: var(--color-text);
+    transition: background-color 0.24s ease;
+}
+
+.cv-btn:hover, .contact-link:hover {
+    background-color: var(--color-surface-dark);
 }
 
 .progress-bar {
@@ -192,6 +206,11 @@
     align-items: center;
     justify-content: center;
     gap: 6px;
+    transition: color 0.24s ease;
+}
+
+.project-link:hover {
+    color: var(--color-accent-muted);
 }
 
 .project-link span {
@@ -278,6 +297,7 @@
     margin: auto;
     border: 1px solid var(--color-border);
     border-radius: 16px;
+    transition: background-color 0.24s ease;
 }
 
 .contact-link span {

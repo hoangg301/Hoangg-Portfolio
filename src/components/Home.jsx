@@ -150,7 +150,9 @@ function Home() {
                 <div className="contact-container">
                     <a 
                         className="contact-link"
-                        href="mailto:hoangg3012005@gmail.com"
+                        href="https://mail.google.com/mail/?view=cm&fs=1&to=hoangg3012005@gmail.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
                     > 
                         <img src={email} alt="Gmail icon" />
                         <span>Email</span>

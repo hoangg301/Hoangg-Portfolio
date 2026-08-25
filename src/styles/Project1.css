@@ -15,6 +15,11 @@
     text-decoration: none;
     color: var(--color-accent);
     margin-bottom: 24px;
+    transition: color 0.24s ease;
+}
+
+.back-btn:hover {
+    color: var(--color-accent-muted);
 }
 
 .p1-img {
@@ -81,11 +86,25 @@
 .demo-btn {
     color: var(--color-text-secondary);
     background-color: var(--color-accent);
+    transition: background-color 0.24s ease;
+}
+
+.demo-btn:hover, .footer-back-btn:hover, .footer-next-btn:hover {
+    background-color: var(--color-accent-muted);
+}
+
+.back-btn:active, .demo-btn:active, .code-btn:active, .footer-back-btn:active, .footer-next-btn:active {
+    transform: scale(0.92);
 }
 
 .code-btn {
     color: var(--color-text);
     background-color: var(--color-surface);
+    transition: background-color 0.24s ease;
+}
+
+.code-btn:hover {
+    background-color: var(--color-surface-dark);
 }
 
 .btns img {
@@ -141,6 +160,7 @@ li {
     gap: 8px;
     border: 1px solid var(--color-border);
     border-radius: 24px;
+    transition: background-color 0.24s ease;
 }
 
 
