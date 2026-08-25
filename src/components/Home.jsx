@@ -33,12 +33,16 @@ function Home() {
                                 }}
                             >
                                 <span>Xem dự án</span>
-                                <ArrowDown size={14} />
+                                <ArrowDown size={16} />
                             </button>
-                            <button className="btn cv-btn">
+                            <a 
+                                href="/cv.pdf"
+                                className="btn cv-btn"
+                                download="Le_Gia_Hoang_Frontend_Intern_CV.pdf"
+                            >
                                 <span>Tải CV</span>
-                                <Download size={14} />
-                            </button>
+                                <Download size={16} />
+                            </a>
                         </div>
                     </div>
                     <div className="intro-right">
@@ -160,7 +164,11 @@ function Home() {
                         <img src={github} alt="GitHub icon" />
                         <span>GitHub</span>
                     </a>
-                    <a href="#" className="contact-link">
+                    <a 
+                        href="/cv.pdf" 
+                        download="Le_Gia_Hoang_Frontend_Intern_CV.pdf"
+                        className="contact-link"
+                    >
                         <Download size={20} />
                         <span>Tải CV</span>
                     </a>
