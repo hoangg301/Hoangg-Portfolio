@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&display=swap");
+
+.p2 {
+    padding: 24px 20px 48px;
+}
+
+.back-btn {
+    padding: 4px 12px;
+    background-color: transparent;
+    font-size: 1.1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: var(--color-accent);
+    margin-bottom: 24px;
+}
+
+.p2-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.p2-img img {
+    width: 85%;
+    border: 2px solid var(--color-border);
+    border-radius: 12px;
+}
+
+.title {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: var(--color-accent);
+    margin-bottom: 6px;
+    line-height: 2.2rem;
+}
+
+.skill-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.skill {
+    padding: 4px 12px;
+    background-color: var(--color-surface);
+    border-radius: 12px;
+    border: 1px solid var(--color-border);
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: var(--color-text-muted);
+    font-weight: 500;
+    line-height: 1.4rem;
+    margin-bottom: 24px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 48px;
+}
+
+.btns a {
+    display: flex;
+    gap: 8px;
+    text-decoration: none;
+    padding: 8px 14px;
+    border: 1px solid var(--color-border);
+    border-radius: 24px;
+    font-size: 0.94rem;
+    font-weight: 600;
+    align-items: center;
+}
+
+.demo-btn {
+    color: var(--color-text-secondary);
+    background-color: var(--color-accent);
+}
+
+.code-btn {
+    color: var(--color-text);
+    background-color: var(--color-surface);
+}
+
+.btns img {
+    width: 20px;
+    height: 20px;
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 2rem;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 6px;
+    line-height: 1.4rem;
+    letter-spacing: 0.012em;
+}
+
+.intention, .deploy, .scale, .exp, .limits {
+    margin-top: 40px;
+}
+
+ul {
+    margin-left: 16px;
+}
+
+li {
+    margin-bottom: 6px;
+    letter-spacing: 0.01em;
+}
+
+.deploy ul {
+    margin-left: 34px;
+}
+
+.footer-btns {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 36px;
+}
+
+.footer-back-btn, .footer-next-btn {
+    padding: 6px 16px;
+    background-color: var(--color-accent);
+    color: var(--color-text-secondary);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    gap: 8px;
+    border: 1px solid var(--color-border);
+    border-radius: 24px;
+}
+
+
+@media (min-width: 768px) {
+
+    .p2 {
+        padding: 32px 30px 64px;
+    }
+
+    .btns {
+        justify-content: left;
+        gap: 32px;
+        margin-left: 16px;
+    }
+
+    .feature-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 20px;
+    }
+
+    .feature-col {
+        display: grid;
+        grid-template-rows: auto;
+        gap: 36px;
+    }
+
+    .intention, .deploy {
+        margin-top: 0;
+    }
+
+    .general, .intention, .deploy, .scale, .exp, .limits {
+        background-color: var(--color-surface-dark);
+        padding: 12px;
+        border: 1px solid var(--color-border);
+        border-radius: 16px;
+    }
+
+    ul {
+        margin-left: 20px;
+    }
+
+    .footer-back-btn, .footer-next-btn {
+        padding: 10px 36px;
+    }
+
+    .footer-btns {
+        justify-content: space-between;
+        width: 95%;
+        margin: 36px auto 0;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .p2 {
+        padding: 40px 40px 80px;
+    }
+
+    .p2-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        margin-bottom: 48px;
+    }
+
+    .p2-detail {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .btns {
+        justify-content: space-evenly;
+        margin-left: 0;
+        gap: 0;
+    }
+
+}
