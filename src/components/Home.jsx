@@ -36,9 +36,9 @@ function Home() {
                                 <ArrowDown size={16} />
                             </button>
                             <a 
-                                href="/cv.pdf"
+                                href="/Le_Gia_Hoang_CV.pdf"
                                 className="btn cv-btn"
-                                download="Le_Gia_Hoang_Frontend_Intern_CV.pdf"
+                                download="Le_Gia_Hoang_CV.pdf"
                             >
                                 <span>Tải CV</span>
                                 <Download size={16} />
@@ -167,8 +167,8 @@ function Home() {
                         <span>GitHub</span>
                     </a>
                     <a 
-                        href="/cv.pdf" 
-                        download="Le_Gia_Hoang_Frontend_Intern_CV.pdf"
+                        href="/Le_Gia_Hoang_CV.pdf" 
+                        download="Le_Gia_Hoang_CV.pdf"
                         className="contact-link"
                     >
                         <Download size={20} />
